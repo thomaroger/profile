@@ -1,6 +1,8 @@
 Personnalisation
 =======
 
+Personnalisation d'un linux / mac ( apps & bash)
+
 
 ## Contenu de .bash_profile
 
