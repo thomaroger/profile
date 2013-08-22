@@ -1,4 +1,4 @@
-Personnalisation du MAC OS
+Personnalisation
 =======
 
 
@@ -39,4 +39,12 @@ deleted = red
 [user]
         name = <name>
         email = <email>
+```
+
+## Configuration gem ruby
+
+```
+sudo gem update --system
+sudo gem install highline
+sudo gem list
 ```
