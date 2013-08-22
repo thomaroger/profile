@@ -65,9 +65,3 @@ alias phpunit='phpunit --colors'
 alias svnu='svn update --ignore-externals'
 alias svnupall='svn update * --ignore-externals'
 alias svns='svn status --ignore-externals'
-
-
-alias git_remove_old_branches='git_remove_old_branches.rb'
-
-
-

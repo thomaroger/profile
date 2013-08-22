@@ -16,6 +16,11 @@ function parse_branch () {
     fi   
   fi;
   if [[ -d ".git" ]]; then
-    git branch 2> /dev/null | sed -e 's/* \(.*\)/ (\1)/'
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
   fi;
+}
+
+
+function git_remove_old_branches (){
+  git branch -r --merged | grep -vw "master" | grep -vw "HEAD" | grep -vw "develop" | cut -d "/" -f2 | xargs -p -I {} git push origin :{}
 }
