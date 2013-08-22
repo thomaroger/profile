@@ -11,7 +11,7 @@ source <path>/functions.sh
 # Alias
 source <path>/alias.sh
 
-# variable Environnement
+# Variables d'environnement
 source <path>/envs.sh
 
 ```
@@ -20,4 +20,23 @@ source <path>/envs.sh
 
 ```
 less <path>/apps
+```
+
+## Configuration GIT (.gitconfig)
+
+```
+[color]
+status = auto
+
+[color "status"]
+added = green
+changed = blue
+untracked = magenta
+deleted = red
+[alias]
+        co = checkout
+        ci = commit
+[user]
+        name = <name>
+        email = <email>
 ```
