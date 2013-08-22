@@ -1,70 +1,70 @@
-total 0
-drwxrwxr-x@  3 troger  admin   102B 30 jul  2008 AOL Radio.app
-drwxr-xr-x@  4 troger  admin   136B  5 aoû 00:41 Adium.app
-drwxr-xr-x   3 root    wheel   102B 31 jul 23:01 Alfred.app
-drwxrwxr-x@  3 troger  admin   102B 15 oct  2012 Android File Transfer.app
-drwxr-xr-x+  3 root    wheel   102B 18 avr  2012 App Store.app
-drwxr-xr-x@ 16 troger  admin   544B  5 aoû 00:46 Aptana Studio 3
-drwxr-xr-x   3 root    wheel   102B 14 mar  2012 Automator.app
-drwxr-xr-x@  3 troger  admin   102B 16 jul 10:54 Balsamiq Mockups.app
-drwxr-xr-x   3 root    wheel   102B 31 jul 22:26 Battery Time 2.app
-drwxr-xr-x   3 root    wheel   102B 26 jul  2012 Calculator.app
-drwxr-xr-x+  3 root    wheel   102B  7 nov  2012 Calendar.app
-drwxr-xr-x   3 root    wheel   102B 12 nov  2012 Chess.app
-drwxr-xr-x+  3 root    wheel   102B  8 aoû  2012 Contacts.app
-drwxr-xr-x@  3 troger  staff   102B  3 mai 16:11 Cyberduck.app
-drwxr-xr-x+  3 root    wheel   102B 20 aoû  2012 DVD Player.app
-drwxr-xr-x   3 root    wheel   102B 20 jui  2012 Dashboard.app
-drwxr-xr-x+  3 root    wheel   102B 21 jui  2012 Dictionary.app
-drwxr-xr-x+  3 root    wheel   102B 24 avr 03:41 FaceTime.app
-drwxr-xr-x@  4 troger  admin   136B 18 jui 15:20 Firefox.app
-drwxr-xr-x   3 root    wheel   102B 25 mar  2012 Font Book.app
-drwxr-xr-x+  3 root    wheel   102B 19 avr 04:29 Game Center.app
-drwxr-xr-x@  3 troger  admin   102B 11 jul  2011 GanttProject 2.6.1.app
-drwxr-xr-x   3 root    wheel   102B 27 mai 14:18 GarageBand.app
-drwxr-xr-x@  3 troger  admin   102B 25 jul 00:16 Google Chrome.app
-drwxr-xr-x@  4 troger  admin   136B 12 jul 19:59 Google Earth.app
-drwxr-xr-x@  3 troger  admin   102B 31 déc  2009 Highlight.app
-drwxr-xr-x+  3 root    wheel   102B 23 jui  2012 Image Capture.app
-drwxr-xr-x   3 root    wheel   102B 31 jul 22:22 Keynote.app
-drwxr-xr-x   3 root    wheel   102B 20 jui  2012 Launchpad.app
-drwxr-xr-x@  3 troger  admin   102B 23 jul 15:04 LibreOffice.app
-drwxr-xr-x+  3 root    wheel   102B  9 avr 03:46 Mail.app
-drwxr-xr-x+  3 root    wheel   102B  7 mai  2012 Messages.app
-drwxr-xr-x   4 root    wheel   136B 31 jul 23:01 MindNode Lite.app
-drwxr-xr-x   3 root    wheel   102B 20 jui  2012 Mission Control.app
-drwxr-xr-x@  3 troger  staff   102B  9 jui 07:01 Mou.app
-drwxr-xr-x@  3 troger  admin   102B 14 fév  2013 MySQLWorkbench.app
-drwxr-xr-x+  3 root    wheel   102B  5 avr 03:55 Notes.app
-drwxr-xr-x   3 root    wheel   102B 31 jul 22:26 Numbers.app
-drwxr-xr-x@  3 troger  admin   102B 18 jul 19:23 OnyX.app
-drwxr-xr-x@  3 troger  admin   102B 15 jul 12:42 Opera.app
-drwxr-xr-x   3 root    wheel   102B 31 jul 22:16 Pages.app
-drwxr-xr-x+  3 root    wheel   102B 17 déc  2012 Photo Booth.app
-drwxr-xr-x   3 root    wheel   102B 31 jul 22:26 Pixelmator.app
-drwxr-xr-x+  3 root    wheel   102B 29 mar 03:12 Preview.app
-drwxr-xr-x+  3 root    wheel   102B 12 avr 03:30 QuickTime Player.app
-drwxr-xr-x+  3 root    wheel   102B 12 fév  2013 Reminders.app
-drwxr-xr-x+  3 root    wheel   102B 13 aoû  2012 Safari.app
-drwxr-xr-x@  3 troger  admin   102B 23 jul 22:45 Shuttle.app
-drwxr-xr-x   3 root    wheel   102B 31 jul 23:01 Skitch.app
-drwxr-xr-x@  3 troger  admin   102B 25 jul 05:29 Skype.app
-drwxr-xr-x@  3 troger  staff   102B 25 avr 19:02 Spectacle.app
-drwxr-xr-x+  3 root    wheel   102B 20 jui  2012 Stickies.app
-drwxr-xr-x@  3 troger  admin   102B  8 jul 03:31 Sublime Text 2.app
-drwxrwxr-x+  3 root    wheel   102B 31 jul  2012 System Preferences.app
-drwxr-xr-x@  3 troger  admin   102B 14 jul 14:01 TeamViz.app
-drwxr-xr-x   3 root    wheel   102B  2 sep  2012 TextEdit.app
-drwxr-xr-x@  3 troger  staff   102B 22 jul  2012 TextMate.app
-drwxr-xr-x+  3 root    wheel   102B 20 jui  2012 Time Machine.app
-drwxr-xr-x@  3 troger  admin   102B 18 jul 05:15 Transmission.app
-drwxr-xr-x   3 troger  admin   102B  1 aoû 20:00 TuneUp.app
-drwxr-xr-x+ 23 root    admin   782B 30 jul 22:16 Utilities
-drwxr-xr-x@  3 troger  admin   102B 31 jul 01:06 VLC.app
-drwxr-xr-x   3 root    admin   102B  1 aoû 21:51 VirtualBox.app
-drwxr-xr-x   3 troger  admin   102B 15 aoû 10:17 Vuze.app
-drwxr-xr-x   3 root    wheel   102B 31 jul 23:01 Xcode.app
-drwxr-xr-x   3 root    wheel   102B 27 mai 14:20 iMovie.app
-drwxr-xr-x   3 root    wheel   102B 27 mai 14:21 iPhoto.app
-drwxr-xr-x   3 root    wheel   102B 31 jul 23:01 iStats.app
-drwxr-xr-x+  3 root    wheel   102B 19 aoû 21:26 iTunes.app
+# Liste des applications
+
+AOL Radio.app
+Adium.app
+Alfred.app
+Android File Transfer.app
+App Store.app
+Aptana Studio 3
+Automator.app
+Balsamiq Mockups.app
+Battery Time 2.app
+Calculator.app
+Calendar.app
+Chess.app
+Contacts.app
+Cyberduck.app
+DVD Player.app
+Dashboard.app
+Dictionary.app
+FaceTime.app
+Firefox.app
+Font Book.app
+Game Center.app
+GanttProject 2.6.1.app
+GarageBand.app
+Google Chrome.app
+Google Earth.app
+Highlight.app
+Image Capture.app
+Keynote.app
+Launchpad.app
+LibreOffice.app
+Mail.app
+Messages.app
+MindNode Lite.app
+Mission Control.app
+Mou.app
+MySQLWorkbench.app
+Notes.app
+Numbers.app
+OnyX.app
+Opera.app
+Pages.app
+Photo Booth.app
+Pixelmator.app
+Preview.app
+QuickTime Player.app
+Reminders.app
+Safari.app
+Shuttle.app
+Skitch.app
+Skype.app
+Spectacle.app
+Stickies.app
+Sublime Text 2.app
+System Preferences.app
+TeamViz.app
+TextEdit.app
+TextMate.app
+Time Machine.app
+Transmission.app
+TuneUp.app
+VLC.app
+VirtualBox.app
+Vuze.app
+Xcode.app
+iMovie.app
+iPhoto.app
+iStats.app
+iTunes.app
