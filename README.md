@@ -42,3 +42,9 @@ deleted = red
         name = <name>
         email = <email>
 ```
+
+## Initialisation MAC OS
+
+```
+~/<path>/.osx
+```
