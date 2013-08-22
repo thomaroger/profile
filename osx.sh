@@ -3,9 +3,6 @@
 # Suppression du son de boot
 sudo nvram SystemAudioVolume=" "
 
-# Sauvegarde sur disque (pas sur iCloud) par defaut
-defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
-
 # Ferme automatique la fenetre d'application d'impression quand c'est fini
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
@@ -15,7 +12,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # Sauvegarde des screenshots en format jpg 
 defaults write com.apple.screencapture type -string "jpg"
 
-# Finder: montre les extensiosnns des fichiers 
+# Finder montre les extensions des fichiers 
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # non creation des fichiers sur les volumes
