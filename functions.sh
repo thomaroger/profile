@@ -22,5 +22,7 @@ function parse_branch () {
 
 
 function git_remove_old_branches (){
+  git co develop
+  git fetch
   git branch -r --merged | grep -vw "master" | grep -vw "HEAD" | grep -vw "develop" | cut -d "/" -f2 | xargs -p -I {} git push origin :{}
 }
