@@ -45,4 +45,4 @@ deleted = red
 
 ## Initialisation MAC OS
 
-Voir le contenu dans <path>/osx.sh
+Voir le contenu dans osx.sh
