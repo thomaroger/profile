@@ -11,10 +11,10 @@ alias -- -='cd -'
 alias c='clear'
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
-alias ls='ls -G'
-alias l='ls -lhG'
-alias ll='ls -halG'
-alias lsd='ls -lFG | grep "^d"'
+alias ls='ls -G --color'
+alias l='ls -lhG --color'
+alias ll='ls -halG --color'
+alias lsd='ls -lFG --color | grep "^d"'
 
 alias kk='ll'
 alias mm='ll'
@@ -24,20 +24,21 @@ alias week='date +%V'
 
 # Alias commande DEV
 
-alias e='open -a /Volumes/Macintosh\ HD/Applications/Sublime\ Text\ 2.app'
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update'
-alias wr='cd /Users/troger/webroot && ll'
+alias e='open -a C:\Program Files\Sublime Text 2\sublime_text.exe'
+#alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update'
+alias wr='cd ~/webroot/ && ll'
 
 
 # APACHE 
-alias apache_stop='sudo apachectl stop'
-alias apache_start='sudo apachectl start'
-alias apache_status='sudo apachectl status'
+alias apache_stop='sudo service apache2  stop'
+alias apache_start='sudo service apache2 start'
+alias apache_restart='sudo service apache2 start'
+alias apache_status='sudo service apache2  status'
 
-alias access='tail -f /private/var/log/apache2/access_log'
-alias error='tail -f /private/var/log/apache2/error_log'
+alias access='tail -f /var/log/apache2/access.log'
+alias error='tail -f /var/log/apache2/error.log'
 
-alias vh='cd /etc/apache2/sites/'
+alias vh='cd /etc/apache2/sites-available/'
 
 # trafic HTTP
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
@@ -56,10 +57,6 @@ alias gti='git'
 
 
 # MySQL 
-alias mysql_start='/usr/local/mysql/support-files/mysql.server start'
-alias mysql_stop='/usr/local/mysql/support-files/mysql.server stop'
-alias mysql_restart='/usr/local/mysql/support-files/mysql.server restart'
-alias mysql='sudo /usr/local/mysql/bin/mysql'
 
 # Recherche
 alias ack='ack --smart-case --type-set twig=".twig"'
