@@ -49,7 +49,7 @@ alias a='git add'
 alias gi='git ci'
 alias gg='git grep -n'
 alias ggi='git grep -ni'
-alias glb='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
+alias glb="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias go='git co'
 alias gsmu='git submodule sync && git submodule update --init --recursive'
 alias gt='git'
