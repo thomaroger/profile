@@ -1,5 +1,8 @@
 # Alias commande  UNIX
 
+
+
+
 umask 077
 
 alias ..='cd ..'
