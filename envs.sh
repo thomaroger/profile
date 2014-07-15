@@ -5,7 +5,7 @@
 
 # PS1
 function color_my_prompt {
-    local __user_and_host="\[\033[0;34m\]\u@\[\033[0;37m\]\h\[\033[0;34m\]:"
+    local __user_and_host="\[\033[0;34m\]\u@\[\033[0;37m\]\h\[\033[0;34m\] \[\033[0;32m\]\D{%F %T}:"
     local __cur_location="\[\033[0;33m\]\w"
     local __git_branch_color="\[\033[0;36m\]"
     local __git_branch="\`ruby -e \"print (%x{git branch 2> /dev/null}.grep(/^\*/).first || '').gsub(/^\* (.+)$/, '(\1) ')\"\`"
