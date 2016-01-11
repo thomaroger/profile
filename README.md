@@ -1,5 +1,3 @@
-Ceci est un super test
-
 Personnalisation
 =======
 
