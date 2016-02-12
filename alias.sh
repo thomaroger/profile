@@ -27,9 +27,9 @@ alias week='date +%V'
 
 # Alias commande DEV
 
-alias e='open -a /Volumes/Macintosh\ HD/Applications/Sublime\ Text\ 2.app'
+alias e='open -a /Applications/Sublime\ Text.app'
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update'
-alias wr='cd /Users/troger/webroot && ll'
+alias wr='cd /Applications/MAMP/htdocs && ll'
 
 
 # APACHE 
@@ -38,9 +38,9 @@ alias apache_start='sudo apachectl start'
 alias apache_status='sudo apachectl status'
 
 alias access='tail -f /private/var/log/apache2/access_log'
-alias error='tail -f /private/var/log/apache2/error_log'
+alias error='tail -f /Applications/MAMP/logs/php_error.log'
 
-alias vh='cd /etc/apache2/sites/'
+alias vh='cd /Applications/MAMP/conf/apache/extra/vhost/'
 
 # trafic HTTP
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
@@ -80,3 +80,10 @@ alias phpunit='phpunit --colors'
 alias svnu='svn update --ignore-externals'
 alias svnupall='svn update * --ignore-externals'
 alias svns='svn status --ignore-externals'
+
+
+#psql
+alias psql='/Applications/Postgres.app/Contents/Versions/9.4/bin/psql -p5432'
+#alias php='/Applications/MAMP/bin/php/php5.6.10/bin/php'
+#alias php56='/Applications/MAMP/bin/php/php5.6.10/bin/php'
+#alias php55='/Applications/MAMP/bin/php/php5.5.26/bin/php'
